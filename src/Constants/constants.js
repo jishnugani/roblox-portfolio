@@ -1,5 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import RNGSystemIcon from '../assets/RNGSystem-icon.png';
+import ItemRollRNG from '../assets/RNGSystem-icon.png';
+import BiomeSpawnRNG from '../assets/RNGBiomeSystem-icon.jpg';
 
 import {
   faX,
@@ -99,10 +100,17 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "RNG System",
+    name: "Biome Spawn RNG",
+    description: 'A randomized biome-spawning system for Roblox. Every time a player resets, they\'re teleported to a biome based on set rarity chances (e.g., 50% for plains, 25% for desert). Each biome has unique visuals and behavior, including dynamic skyboxes and custom scripts.',
+    image: BiomeSpawnRNG,
+    demo_link: 'https://youtu.be/u4lrgaazyFk',
+  },
+
+  {
+    name: "Item Roll RNG",
     description: 'An RNG-based luck game built in Roblox. Roll to unlock items of varying rarity, track your stats on the leaderboard, and equip your rarest finds to show off your luck in style.',
-    image: RNGSystemIcon,
-    demo_link: 'https://www.youtube.com/watch?v=-Ky1kCx2-Co',
+    image: ItemRollRNG,
+    demo_link: 'https://youtu.be/-Ky1kCx2-Co',
   },
 ];
 
