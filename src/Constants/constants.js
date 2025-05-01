@@ -1,6 +1,7 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import ItemRollRNG from '../assets/RNGSystem-icon.png';
 import BiomeSpawnRNG from '../assets/RNGBiomeSystem-icon.jpg';
+import PokemonRNG from '../assets/PokemonRNG-icon.png';
 
 import {
   faX,
@@ -99,6 +100,13 @@ export const navLinks = [
 ];
 
 const projects = [
+  {
+    name: "Pokemon RNG Simulator",
+    description: 'A roll-based Pokémon unboxing experience on Roblox. every spin gives a random Pokémon based on weighted rarities. collect and equip your finds with dynamic scale and billboard effects, earn and stack temporary luck buffs to boost drop odds, and customize your spinner with gamepasses like fast roll and multi-roll for even more excitement.',
+    image: PokemonRNG,
+    demo_link: 'https://youtu.be/m_pMc9mVvv8',
+  },
+
   {
     name: "Biome Spawn RNG",
     description: 'A randomized biome-spawning system for Roblox. Every time a player resets, they\'re teleported to a biome based on set rarity chances (e.g., 50% for plains, 25% for desert). Each biome has unique visuals and behavior, including dynamic skyboxes and custom scripts.',
