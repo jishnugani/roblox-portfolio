@@ -2,6 +2,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import ItemRollRNG from '../assets/RNGSystem-icon.png';
 import BiomeSpawnRNG from '../assets/RNGBiomeSystem-icon.jpg';
 import PokemonRNG from '../assets/PokemonRNG-icon.png';
+import HexGridAreaFill from '../assets/HexGridAreaFill-icon.jpg';
 
 import {
   faX,
@@ -77,7 +78,7 @@ const introduction = {
   text: [
     "Hey there! Thanks for stopping by! (:",
 
-		"I'm Jishnu Ganisetti, a 17-year-old based in California, USA, working in the world of game development. With over a year of experience in Roblox scripting and LUA, I love creating interactive and fun experiences for players.",
+		"I'm Jishnu Ganisetti, a 17-year-old based in California, USA, working in the world of game development. With over 2 years of experience in Roblox scripting and LUA, I love creating interactive and fun experiences for players.",
     "Outside of coding, I'm passionate about exploring new technologies, gaming, and learning how to build engaging systems. My goal is to continue growing as a developer and connect with like-minded individuals who share the same enthusiasm for game development and innovation.",
     "Feel free to explore my portfolio, and I look forward to creating amazing things together!"
   ],
@@ -105,6 +106,13 @@ const projects = [
     description: 'A roll-based Pokémon unboxing experience on Roblox. every spin gives a random Pokémon based on weighted rarities. collect and equip your finds with dynamic scale and billboard effects, earn and stack temporary luck buffs to boost drop odds, and customize your spinner with gamepasses like fast roll and multi-roll for even more excitement.',
     image: PokemonRNG,
     demo_link: 'https://youtu.be/m_pMc9mVvv8',
+  },
+
+  {
+    name: "HexGrid Area Fill",
+    description: 'Smoothly claims and fills enclosed hex regions row by row, minimizing client lag. Utilizes BFS to detect interior tiles and animates ownership changes over Heartbeat.',
+    image: HexGridAreaFill,
+    demo_link: 'https://youtu.be/6q02WLSRCtE',
   },
 
   {
