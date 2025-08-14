@@ -3,6 +3,7 @@ import ItemRollRNG from '../assets/RNGSystem-icon.png';
 import BiomeSpawnRNG from '../assets/RNGBiomeSystem-icon.jpg';
 import PokemonRNG from '../assets/PokemonRNG-icon.png';
 import HexGridAreaFill from '../assets/HexGridAreaFill-icon.jpg';
+import Triangulate from '../assets/Triangulate-icon.png';
 
 import {
   faX,
@@ -101,6 +102,13 @@ export const navLinks = [
 ];
 
 const projects = [
+  {
+    name: "Triangulate",
+    description: 'A fast-paced cooperative factory game on Roblox. Players enable droppers, build conveyor setups, and route shapes into a selling pit to meet daily quotas. Includes procedurally-adjusted quotas, special round modifiers, a rune/shop system for persistent player modifiers, upgrade generation and application, and leaderboard/datastore integration for long-term stats and badges.',
+    image: Triangulate,
+    demo_link: 'https://youtu.be/9WqgkNeYZG8',
+  },
+
   {
     name: "Pokemon RNG Simulator",
     description: 'A roll-based Pokémon unboxing experience on Roblox. every spin gives a random Pokémon based on weighted rarities. collect and equip your finds with dynamic scale and billboard effects, earn and stack temporary luck buffs to boost drop odds, and customize your spinner with gamepasses like fast roll and multi-roll for even more excitement.',
