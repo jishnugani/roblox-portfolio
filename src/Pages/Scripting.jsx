@@ -1,14 +1,14 @@
-import Works from "../Components/ScriptingProjects";
+import ScriptingProjects from "../Components/ScriptingProjects";
 import SectionTitle from "../Components/SectionTitle";
 
 const Projects = () => {
 	return (
-		<div className="w-full flex justify-center" id="projects">
+		<div className="w-full flex justify-center" id="scriptingProjects">
 			<div className="w-full xl:w-[70%] flex flex-col pb-16">
 				<div className="w-full ">
-					<SectionTitle title="PROJECTS" subtitle="What I have done so far" />
+					<SectionTitle title="SCRIPTING" subtitle="My scripting work" />
 				</div>
-				<Works/>
+				<ScriptingProjects/>
 			</div>
 		</div>
 	);

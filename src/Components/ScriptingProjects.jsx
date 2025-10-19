@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
-import { projects } from "../Constants/constants";
+import { scriptingProjects } from "../Constants/constants";
 import { githubIcon } from "../assets";
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
@@ -144,7 +144,7 @@ const ProjectCard = ({
 const Works = () => {
     return (
         <div className="mt-5 flex flex-wrap justify-center gap-4 text-grayscale-50 w-full">
-            {projects.map((project, index) => (
+            {scriptingProjects.map((project, index) => (
                 <ProjectCard key={`project-${index}`} index={index} {...project} />
             ))}
         </div>

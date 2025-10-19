@@ -5,6 +5,11 @@ import PokemonRNG from '../assets/PokemonRNG-icon.png';
 import HexGridAreaFill from '../assets/HexGridAreaFill-icon.jpg';
 import Triangulate from '../assets/Triangulate-icon.png';
 
+import Shop1 from '../assets/UIImages/Shop1.png';
+import BattlePass1 from '../assets/UIImages/BattlePass1.png';
+import Upgrades1 from '../assets/UIImages/Upgrades1.png';
+import PlaytimeRewards1 from '../assets/UIImages/PlaytimeRewards1.png';
+
 import {
   faX,
   faBars,
@@ -91,17 +96,20 @@ export const navLinks = [
     title: 'About',
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: 'scriptingProjects',
+    title: 'Scripting',
   },
-
+  {
+    id: 'uiDesignProjects',
+    title: 'UI Design'
+  },
   {
     id: 'contact',
     title: 'Contact',
   },
 ];
 
-const projects = [
+const scriptingProjects = [
   {
     name: "Triangulate",
     description: 'A fast-paced cooperative factory game on Roblox. Players enable droppers, build conveyor setups, and route shapes into a selling pit to meet daily quotas. Includes procedurally-adjusted quotas, special round modifiers, a rune/shop system for persistent player modifiers, upgrade generation and application, and leaderboard/datastore integration for long-term stats and badges.',
@@ -136,6 +144,28 @@ const projects = [
     image: ItemRollRNG,
     demo_link: 'https://youtu.be/-Ky1kCx2-Co',
   },
+];
+
+const uiDesignProjects = [
+  {
+    name: "Vote for an Upgrade",
+    demo_image: Upgrades1,
+  },
+  
+  {
+    name: "Currency Shop",
+    demo_image: Shop1,
+  },
+
+  {
+    name: "Battlepass leveling",
+    demo_image: BattlePass1,
+  },
+
+  {
+    name: "Seasonal Playtime Rewards",
+    demo_image: PlaytimeRewards1,
+  }
 ];
 
 const memoji = {
@@ -265,7 +295,8 @@ const markerSvg = `<svg viewBox="-4 0 36 36">
 export {
   media,
   introduction,
-  projects,
+  scriptingProjects,
+  uiDesignProjects,
   memoji,
   skills,
   markerSvg,
