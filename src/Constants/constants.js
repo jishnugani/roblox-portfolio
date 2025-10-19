@@ -9,6 +9,7 @@ import Shop1 from '../assets/UIImages/Shop1.png';
 import BattlePass1 from '../assets/UIImages/BattlePass1.png';
 import Upgrades1 from '../assets/UIImages/Upgrades1.png';
 import PlaytimeRewards1 from '../assets/UIImages/PlaytimeRewards1.png';
+import Shop2 from '../assets/UIImages/Shop2.png';
 
 import {
   faX,
@@ -155,6 +156,11 @@ const uiDesignProjects = [
   {
     name: "Currency Shop",
     demo_image: Shop1,
+  },
+
+  {
+    name: "Gems Shop",
+    demo_image: Shop2,
   },
 
   {
