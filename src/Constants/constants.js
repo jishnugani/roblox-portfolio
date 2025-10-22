@@ -10,6 +10,7 @@ import BattlePass1 from '../assets/UIImages/BattlePass1.png';
 import Upgrades1 from '../assets/UIImages/Upgrades1.png';
 import PlaytimeRewards1 from '../assets/UIImages/PlaytimeRewards1.png';
 import Shop2 from '../assets/UIImages/Shop2.png';
+import DailyRewards1 from '../assets/UIImages/DailyRewards1.png';
 
 import {
   faX,
@@ -171,7 +172,12 @@ const uiDesignProjects = [
   {
     name: "Seasonal Playtime Rewards",
     demo_image: PlaytimeRewards1,
-  }
+  },
+
+  {
+    name: "Daily Rewards",
+    demo_image: DailyRewards1,
+  },
 ];
 
 const memoji = {
