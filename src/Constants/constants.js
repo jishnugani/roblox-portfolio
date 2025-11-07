@@ -151,11 +151,6 @@ const scriptingProjects = [
 
 const uiDesignProjects = [
   {
-    name: "Vote for an Upgrade",
-    demo_image: Upgrades1,
-  },
-  
-  {
     name: "Currency Shop",
     demo_image: Shop1,
   },
@@ -178,11 +173,6 @@ const uiDesignProjects = [
   {
     name: "Daily Rewards",
     demo_image: DailyRewards1,
-  },
-
-  {
-    name: "Blue Lock Shop",
-    demo_image: Shop3,
   },
 ];
 
