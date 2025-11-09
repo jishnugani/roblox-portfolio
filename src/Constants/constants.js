@@ -12,6 +12,7 @@ import PlaytimeRewards1 from '../assets/UIImages/PlaytimeRewards1.png';
 import Shop2 from '../assets/UIImages/Shop2.png';
 import DailyRewards1 from '../assets/UIImages/DailyRewards1.png';
 import Shop3 from '../assets/UIImages/Shop3.png';
+import Status1 from '../assets/UIImages/Status1.png';
 
 import {
   faX,
@@ -168,6 +169,11 @@ const uiDesignProjects = [
   {
     name: "Seasonal Playtime Rewards",
     demo_image: PlaytimeRewards1,
+  },
+
+  {
+    name: "Status",
+    demo_image: Status1,
   },
 
   {
