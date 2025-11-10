@@ -13,6 +13,7 @@ import Shop2 from '../assets/UIImages/Shop2.png';
 import DailyRewards1 from '../assets/UIImages/DailyRewards1.png';
 import Shop3 from '../assets/UIImages/Shop3.png';
 import Status1 from '../assets/UIImages/Status1.png';
+import Shop4 from '../assets/UIImages/Shop4.png';
 
 import {
   faX,
@@ -179,6 +180,11 @@ const uiDesignProjects = [
   {
     name: "Daily Rewards",
     demo_image: DailyRewards1,
+  },
+
+  {
+    name: "Gamepass Shop",
+    demo_image: Shop4,
   },
 ];
 
