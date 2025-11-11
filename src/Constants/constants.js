@@ -14,6 +14,7 @@ import DailyRewards1 from '../assets/UIImages/DailyRewards1.png';
 import Shop3 from '../assets/UIImages/Shop3.png';
 import Status1 from '../assets/UIImages/Status1.png';
 import Shop4 from '../assets/UIImages/Shop4.png';
+import Upgrades2 from '../assets/UIImages/Upgrades2.png';
 
 import {
   faX,
@@ -175,6 +176,11 @@ const uiDesignProjects = [
   {
     name: "Status",
     demo_image: Status1,
+  },
+
+  {
+    name: "Vote for an Upgrade",
+    demo_image: Upgrades2,
   },
 
   {
