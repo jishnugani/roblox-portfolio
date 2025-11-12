@@ -15,6 +15,7 @@ import Shop3 from '../assets/UIImages/Shop3.png';
 import Status1 from '../assets/UIImages/Status1.png';
 import Shop4 from '../assets/UIImages/Shop4.png';
 import Upgrades2 from '../assets/UIImages/Upgrades2.png';
+import HealthBar1 from '../assets/UIImages/HealthBar1.png';
 
 import {
   faX,
@@ -191,6 +192,11 @@ const uiDesignProjects = [
   {
     name: "Gamepass Shop",
     demo_image: Shop4,
+  },
+
+  {
+    name: "RPG Health Bar UI",
+    demo_image: HealthBar1,
   },
 ];
 
