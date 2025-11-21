@@ -5,7 +5,6 @@ import PokemonRNG from '../assets/PokemonRNG-icon.png';
 import HexGridAreaFill from '../assets/HexGridAreaFill-icon.jpg';
 import Triangulate from '../assets/Triangulate-icon.png';
 
-import PlaytimeRewards1 from '../assets/UIImages/PlaytimeRewards1.png';
 import Shop2 from '../assets/UIImages/Shop2.png';
 import DailyRewards1 from '../assets/UIImages/DailyRewards1.png';
 import Status1 from '../assets/UIImages/Status1.png';
@@ -152,11 +151,6 @@ const uiDesignProjects = [
   {
     name: "Gems Shop",
     demo_image: Shop2,
-  },
-
-  {
-    name: "Seasonal Playtime Rewards",
-    demo_image: PlaytimeRewards1,
   },
 
   {
