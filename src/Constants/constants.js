@@ -5,17 +5,12 @@ import PokemonRNG from '../assets/PokemonRNG-icon.png';
 import HexGridAreaFill from '../assets/HexGridAreaFill-icon.jpg';
 import Triangulate from '../assets/Triangulate-icon.png';
 
-import Shop1 from '../assets/UIImages/Shop1.png';
-import BattlePass1 from '../assets/UIImages/BattlePass1.png';
-import Upgrades1 from '../assets/UIImages/Upgrades1.png';
 import PlaytimeRewards1 from '../assets/UIImages/PlaytimeRewards1.png';
 import Shop2 from '../assets/UIImages/Shop2.png';
 import DailyRewards1 from '../assets/UIImages/DailyRewards1.png';
-import Shop3 from '../assets/UIImages/Shop3.png';
 import Status1 from '../assets/UIImages/Status1.png';
 import Shop4 from '../assets/UIImages/Shop4.png';
 import Upgrades2 from '../assets/UIImages/Upgrades2.png';
-import HealthBar1 from '../assets/UIImages/HealthBar1.png';
 
 import {
   faX,
@@ -155,18 +150,8 @@ const scriptingProjects = [
 
 const uiDesignProjects = [
   {
-    name: "Currency Shop",
-    demo_image: Shop1,
-  },
-
-  {
     name: "Gems Shop",
     demo_image: Shop2,
-  },
-
-  {
-    name: "Battlepass leveling",
-    demo_image: BattlePass1,
   },
 
   {
@@ -192,11 +177,6 @@ const uiDesignProjects = [
   {
     name: "Gamepass Shop",
     demo_image: Shop4,
-  },
-
-  {
-    name: "RPG Health Bar UI",
-    demo_image: HealthBar1,
   },
 ];
 
