@@ -10,6 +10,7 @@ import DailyRewards1 from '../assets/UIImages/DailyRewards1.png';
 import Status1 from '../assets/UIImages/Status1.png';
 import Shop4 from '../assets/UIImages/Shop4.png';
 import Upgrades2 from '../assets/UIImages/Upgrades2.png';
+import Wheel1 from '../assets/UIImages/Wheel1.png';
 
 import {
   faX,
@@ -149,7 +150,7 @@ const scriptingProjects = [
 
 const uiDesignProjects = [
   {
-    name: "Gems Shop",
+    name: "Gems shop",
     demo_image: Shop2,
   },
 
@@ -159,17 +160,22 @@ const uiDesignProjects = [
   },
 
   {
-    name: "Vote for an Upgrade",
+    name: "Vote for an upgrade",
     demo_image: Upgrades2,
   },
 
   {
-    name: "Daily Rewards",
+    name: "Stud style spin wheel",
+    demo_image: Wheel1,
+  },
+
+  {
+    name: "Daily rewards",
     demo_image: DailyRewards1,
   },
 
   {
-    name: "Gamepass Shop",
+    name: "Gamepass shop",
     demo_image: Shop4,
   },
 ];
