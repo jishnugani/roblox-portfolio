@@ -11,6 +11,7 @@ import Status1 from '../assets/UIImages/Status1.png';
 import Shop4 from '../assets/UIImages/Shop4.png';
 import Upgrades2 from '../assets/UIImages/Upgrades2.png';
 import Wheel1 from '../assets/UIImages/Wheel1.png';
+import Shop5 from '../assets/UIImages/Shop5.png';
 
 import {
   faX,
@@ -157,6 +158,11 @@ const uiDesignProjects = [
   {
     name: "Status",
     demo_image: Status1,
+  },
+
+  {
+    name: "Hollow Knight shop",
+    demo_image: Shop5,
   },
 
   {
