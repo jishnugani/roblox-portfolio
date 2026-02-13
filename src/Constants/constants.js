@@ -87,8 +87,7 @@ const introduction = {
   text: [
     "Hey there! Thanks for stopping by! (:",
 
-		"I'm Jishnu Ganisetti, an 18-year-old based in California, USA, working in the world of game development. With over 3 years of experience in Roblox scripting and 1 year of experience as a Roblox UI Designer, I love creating interactive and fun experiences for players.",
-    "Outside of coding, I'm passionate about exploring new technologies, gaming, and learning how to build engaging systems. My goal is to continue growing as a developer and connect with like-minded individuals who share the same enthusiasm for game development and innovation.",
+		"I'm Jishnu Ganisetti, an 18-year-old based in California, USA, working in the world of game development. With over 3 years of experience in Roblox scripting and 2 years of experience as a Roblox UI Designer, I love creating interactive and fun experiences for players.",
     "Feel free to explore my portfolio, and I look forward to creating amazing things together!"
   ],
 };
